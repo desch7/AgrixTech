@@ -68,6 +68,7 @@ public class PlantController {
 	@PutMapping("/update/{id}")
 	public Plant updatePlant(@PathVariable long id, @RequestBody Plant plant) {
 		Plant pl=plantRepository.findById(id);
+		pl.setId(id);
 		pl.setName(plant.getName());
 		pl.setPeriodicite(plant.getPeriodicite());
 		pl.setSeed_type(plant.getSeed_type());
