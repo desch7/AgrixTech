@@ -21,6 +21,9 @@ public class ProjectDto {
 	private long area;
 	private long plant_id;
 	private long farmer_id;
+	
+	public ProjectDto() {}
+	
 	public Date getAnticipated_harvest_date() {
 		return anticipated_harvest_date;
 	}

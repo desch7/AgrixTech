@@ -31,6 +31,8 @@ public class Farmer {
 	@JsonIgnore
 	List<Project> projects;
 	
+	public Farmer() {}
+	
 	
 	
 	public List<Project> getProjects() {

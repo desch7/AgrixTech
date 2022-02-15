@@ -27,6 +27,10 @@ public class Plant {
 	@JsonIgnore
 	List<Project> projects;
 	
+	public Plant() {
+		
+	}
+	
 	
 	
 	public List<Project> getProjects() {

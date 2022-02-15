@@ -37,6 +37,10 @@ public class Project {
 	private Plant plantid;
 	
 	
+	public Project() {
+		
+	}
+	
 	
 	public Farmer getFarmer_id() {
 		return farmerid;

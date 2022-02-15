@@ -7,6 +7,9 @@ public class FarmerDto {
 
 	private long value;
 	private String label;
+	
+	public FarmerDto() {}
+	
 	public long getValue() {
 		return value;
 	}

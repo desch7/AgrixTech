@@ -7,6 +7,9 @@ public class PlantDto {
 	
 	private long value;
 	private String label;
+	
+	public PlantDto() {}
+	
 	public long getValue() {
 		return value;
 	}
